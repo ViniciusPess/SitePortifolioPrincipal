@@ -1,0 +1,132 @@
+
+    #sobre-mim {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    font-family: "Rowdies", sans-serif;
+  }
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.ajustador-2 {
+    padding: 144px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 67px;
+    max-width: 1064px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-family: "Rowdies", sans-serif;
+    font-size: 6rem;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    text-transform: uppercase;
+}
+
+.circulo {
+    position: absolute;
+}
+
+.avatar {
+    width: 323px;
+    height: 368px;
+    position: relative;
+    cursor: pointer;
+    transition: ease 1s;
+    order: -1;
+}
+
+.avatar:hover {
+    transform: scale(1.05);
+}
+
+@keyframes html {
+    0% {
+        bottom: 0;
+        left: 250px;
+    }
+    100% {
+        bottom: 0;
+        left: 50px;
+    }
+}
+
+@keyframes css {
+    0% {
+        bottom: 0;
+        left: 50px;
+    }
+    100% {
+        bottom: 0;
+        left: 250px;
+    }
+}
+
+.html {
+    bottom: 0;
+    left: 0;
+    animation: html 3s infinite linear alternate-reverse ;
+}
+
+.js {
+    bottom: 0;
+    left: 150px;
+}
+
+.css {
+    bottom: 0;
+    left: 300px;
+    animation: css 3s infinite linear alternate-reverse;
+}
+
+.sobre-mim{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.sobre-mim p {
+    width: 60rem;
+  font-family: "Caveat", cursive;
+  font-size: 3rem;
+  line-height: 1;
+  color: #a9abae;
+}
+
+.sobre-mim span{
+    color: #27669C;
+}
+
+
+.section-content {
+    display: flex;
+    align-items: center; 
+    margin-top: 120px;
+    margin-left: -220px;
+}
+
+
+.section-border-left {
+    width: 10px; 
+    background-color: #27669C; 
+    margin-right: 20px; 
+    height: 100%; 
+    
+}
